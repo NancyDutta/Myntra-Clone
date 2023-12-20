@@ -1,0 +1,191 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+        html , body{
+        height: 100%;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        .left img{
+            height: 35px;
+            padding: 10px;
+            padding-top: 15px;
+            margin-left: 37%;
+
+        }
+        header{
+            position: sticky;
+            top:0;
+            background-color: white;
+            height: 66px;
+            box-shadow: rgba(0, 0 , 0 , 0.15) 1.95px 1.95px 2.6px;
+        }
+        .container{
+            /* top -bottom left- right */
+            padding: 0 0vw;
+        
+        }
+        nav ul a li{
+            font-size: 13px;
+            font-weight: 700;
+            padding-top: 6px;
+            color: #282c3f;
+        }
+        .left a:hover{
+            border-bottom: 2.5px solid rgb(233, 64, 93);
+        }
+        
+        nav ul li{
+            list-style: none;
+            /* top bottom */
+            padding: 0 12px;
+        }
+        nav ul a{
+            text-decoration: none;
+            padding: 5px 0;
+            border-bottom: 2.5px solid white;
+            /* padding-left: 9x; */
+            box-sizing: content-box;
+            /* padding-bottom: 9px; */
+        }
+        .supp{
+        font-size: 10px;
+        color:rgb(233 64 93);
+        }
+        .section1{
+            background-color: white;
+        }
+        .search_bar{
+            min-width: 400px;
+        display: flex;
+        align-items: center;  
+    }
+    .search{
+        width: 25vw;
+        padding: 11px 17px;
+            border: 0.5px solid rgb(247 245 245);
+            /* border: 0.5px solid rgb(12, 12, 12); */
+            color: grey;
+            flex-grow: 1;
+            background-color:rgb(247 245 245);
+            border-radius:  0 4px 4px 0;
+        }
+        .search_icon{
+            border: 0.5px solid rgb(247 245 245);
+            /* border: 0.5px solid rgb(12, 12, 12); */
+            color: grey;
+            background-color:rgb(247 245 245);
+        height: 21px;
+        box-sizing: content-box;
+        padding: 8px;
+        border-radius: 4px 0 0 4px;
+        
+        }
+        /* action profile bag wishlist */
+.action_bar{
+    display: flex;
+    min-width: 200;
+    justify-content: space-evenly;
+    padding-right: 32px;
+}
+.action_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+padding: 14px;
+}
+
+/* banner main  */
+.banner_image{
+    width: 100%;
+}
+.banner_container{
+    margin:40px 0px;
+
+}
+
+
+.category_item{
+    flex-wrap: wrap;
+            margin:40px 0px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .category_heading{
+            letter-spacing: .15em;
+            text-transform: uppercase;
+            font-size: 1.8em;
+            margin: 50px 0 10px 30px ;
+            max-height: 5em;
+            font-weight: 982;
+            color: #3e4152;
+        }
+        .sale_item{
+    width:250px;
+    padding-top:50px;
+        }
+.shop_item{
+    flex-wrap: wrap;
+
+        }
+/* footer  */
+
+.footer_container{
+    background-color: #fafbfc;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3{
+    font-weight: 982;
+    font-size: 14px;margin-bottom: 25px;
+
+}
+.footer_column a{
+    color:#696b79;
+    text-decoration: none;
+    font-size: 14px;
+padding-bottom: 5px;
+}
+.store{
+    width: 150px;
+    height: 50px;
+    padding: 6px;
+}
+.appimg {
+    display: flex;
+    flex-direction: row;
+}
+
+.appIcon{
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    padding: 4px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.original_img{
+    display:flex;
+    flex-direction: row;
+    width: 250px;
+    
+
+}
+.original_img img{
+    width: 50px;
+    height: 50px;
+}
+.return{
+padding-top: 50px;
+/* width: 250px; */
+}
